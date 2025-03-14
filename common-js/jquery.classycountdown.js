@@ -157,9 +157,9 @@
                     isFired = true;
                     settings.onEndCallback();
                 }
-                DaysLeft = 0;
-                HoursLeft = 0;
-                MinutesLeft = 0;
+                DaysLeft = 35;
+                HoursLeft = 10;
+                MinutesLeft = 10;
                 SecondsLeft = 0;
             }
             element.find('.ClassyCountdown-days input').val(365 - DaysLeft).trigger('change');
